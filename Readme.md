@@ -30,6 +30,14 @@ If the selected image is not 144dpi (as Retina screenshots are), it will do noth
 
 Shows an alert telling you how many characters were in the selected text.
 
+### Insert Unix Timestamp
+
+Inserts the current Unix time as text.
+
+### Insert UUID
+
+Inserts a UUID, generated either by `uuid` or `uuidgen` (preferring `uuid`) as text.
+
 ### Is that URL SFW?
 
 Opens the isthatsfw preview of the highlighted URL.
