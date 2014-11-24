@@ -30,6 +30,14 @@ If the selected image is not 144dpi (as Retina screenshots are), it will do noth
 
 Shows an alert telling you how many characters were in the selected text.
 
+### Insert Computer Name
+
+Inserts the full name of the computer (as set in the Sharing preference pane) as text.
+
+### Insert Hostname
+
+Inserts the computer's network host name as text.
+
 ### Insert Unix Timestamp
 
 Inserts the current Unix time as text.
