@@ -74,3 +74,7 @@ Requires configuring one password in Keychain Access;
 3. Set the Account Name to your Instapaper account's email address
 4. Set the Password to your Instapaper account's password.
 5. Click "Add".
+
+### Show Instapaper Text
+
+Opens the Instapaper Text version of the highlighted URL.
