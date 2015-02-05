@@ -14,9 +14,13 @@ A set of text converters for some fun Unicode text effects. Each type includes a
 
 These include;
 
-* Full-Width (Ｆｕｌｌ－Ｗｉｄｔｈ)
+* Bold Serif (𝐁𝐨𝐥𝐝 𝐒𝐞𝐫𝐢𝐟)
 * Double-Struck (𝔻𝕠𝕦𝕓𝕝𝕖-𝕊𝕥𝕣𝕦𝕔𝕜)
 * Fraktur (𝕱𝖗𝖆𝖐𝖙𝖚𝖗)
+* Full-Width (Ｆｕｌｌ－Ｗｉｄｔｈ)
+* Italic Serif (𝐼𝑡𝑎𝑙𝑖𝑐 𝑆𝑒𝑟𝑖𝑓)
+
+_**Note**: At the time of testing, only Full-Width has widespread character support across mobile and desktop platforms._
 
 ### De-retinize Picture
 
