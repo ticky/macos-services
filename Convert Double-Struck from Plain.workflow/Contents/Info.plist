@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Convert to Double-Struck</string>
+				<string>Convert: Double-Struck from Plain</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
@@ -23,8 +23,8 @@
 		</dict>
 	</array>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Jessica Stokes</string>
+	<string>Copyright © 2015 Jessica Stokes</string>
 </dict>
 </plist>

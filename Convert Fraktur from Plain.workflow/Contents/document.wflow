@@ -60,7 +60,9 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>export LANG="en_US.UTF-8";
-echo -n "$1" | tr "\!\"#\$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_\`abcdefghijklmnopqrstuvwxyz{|}~⦅⦆¢£¬¯¦¥₩ " "\!\"#\$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅[\\\\]^_\`𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟{|}~⦅⦆¢£¬¯¦¥₩ "</string>
+FROM="\!\"#\$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_\`abcdefghijklmnopqrstuvwxyz{|}~⦅⦆¢£¬¯¦¥₩ "
+TO="\!\"#\$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅[\\\\]^_\`𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟{|}~⦅⦆¢£¬¯¦¥₩ "
+echo -n "$1" | tr "$FROM" "$TO"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
