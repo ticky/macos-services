@@ -50,10 +50,6 @@ Inserts the current Unix time as text.
 
 Inserts a UUID, generated either by `uuid` or `uuidgen` (preferring `uuid`) as text.
 
-### Is that URL SFW?
-
-Opens the isthatsfw preview of the highlighted URL.
-
 ### Send text to Pushover
 
 Pushes the selected text to Pushover.
