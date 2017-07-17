@@ -1,6 +1,6 @@
-# OS X Services
+# macOS Services
 
-A collection of useful Services for Mac OS X
+A collection of useful Services for macOS
 
 ## Installation
 
